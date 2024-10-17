@@ -1,0 +1,176 @@
+Linux a2u10n02 3.10.0-957.el7.x86_64 #1 SMP Thu Oct 4 20:48:51 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux
+CPU	: Intel(R) Xeon(R) Gold 6140 CPU @ 2.30GHz
+@01 INSTANCE: instances/ndp/bidirected/ndp_50_3_2_0_0.mps.gz, SEED: 0
+@02 START TIME: 2024-08-13 20:39:06
+
+TIME: 500
+MEM: 32768
+SEED: 0
+MINGAP: 0.010000
+HEUR MODE: 21
+CPX MODE: 0
+SOL: results/alone/500/bidirected/1/solutions/bidirected.ndp_50_3_2_0_0.0.cplex_callback_ndp.1threads.500s.sol
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+CPXPARAM_Preprocessing_Presolve                  0
+CPXPARAM_Preprocessing_Linear                    0
+CPXPARAM_Threads                                 1
+CPXPARAM_RandomSeed                              0
+CPXPARAM_MIP_Strategy_CallbackReducedLP          0
+CPXPARAM_MIP_Strategy_Search                     1
+CPXPARAM_MIP_Limits_Nodes                        1
+CPXPARAM_MIP_Strategy_HeuristicFreq              -1
+CPXPARAM_MIP_Limits_CutPasses                    -1
+CPXPARAM_Simplex_Limits_UpperObj                 1479635
+CPXPARAM_TimeLimit                               500
+CPXPARAM_MIP_Tolerances_MIPGap                   0.01
+CPXPARAM_MIP_Limits_TreeMemory                   32768
+Legacy callback                                  BH
+MIP emphasis: balance optimality and feasibility.
+MIP search method: traditional branch-and-cut.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 8.19 sec. (7583.62 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap         Variable B NodeID Parent  Depth
+
+      0     0  1381564.0000   114                1381564.0000    60335         
+Detecting symmetries...
+=  C  = - Old  - INF -   New 2142914.00
+last 100000000000000000000.00 next 2142914.00
+=  C  = - Old 2142914.00 New 2007389.00
+last 2142914.00 next 2007389.00
+last 2007389.00 next 2027568.00
+last 2027568.00 next 2012537.00
+=  C  = - Old 2007389.00 New 1931785.00
+last 2012537.00 next 1931785.00
+last 1931785.00 next 1954267.00
+last 1954267.00 next 2013685.00
+=  C  = - Old 1931785.00 New 1918321.00
+last 2013685.00 next 1918321.00
+last 1918321.00 next 1924557.00
+=  C  = - Old 1918321.00 New 1868131.00
+last 1924557.00 next 1868131.00
+=  C  = - Old 1868131.00 New 1867332.00
+last 1868131.00 next 1867332.00
+=  C  = - Old 1867332.00 New 1835094.00
+last 1867332.00 next 1835094.00
+last 1835094.00 next 1852698.00
+last 1852698.00 next 1849279.04
+last 1849279.04 next 1835883.00
+=  C  = - Old 1835094.00 New 1779990.00
+last 1835883.00 next 1779990.00
+last 1779990.00 next 1785188.00
+last 1785188.00 next 1812363.00
+last 1812363.00 next 1812944.50
+=  C  = - Old 1779990.00 New 1768058.00
+last 1812944.50 next 1768058.00
+last 1768058.00 next 1773289.00
+last 1773289.00 next 1773549.00
+last 1773549.00 next 1787528.00
+=  C  = - Old 1768058.00 New 1763628.00
+last 1787528.00 next 1763628.00
+last 1763628.00 next 1768225.00
+last 1768225.00 next 1798975.05
+last 1798975.05 next 1803602.00
+last 1803602.00 next 1773742.00
+last 1773742.00 next 1793640.00
+last 1793640.00 next 1778906.00
+last 1778906.00 next 1794849.00
+last 1794849.00 next 1787267.00
+last 1787267.00 next 1800071.00
+last 1800071.00 next 1776145.00
+last 1776145.00 next 1793090.00
+last 1793090.00 next 1768754.00
+last 1768754.00 next 1803970.00
+=  C  = - Old 1763628.00 New 1761352.00
+last 1803970.00 next 1761352.00
+last 1761352.00 next 1778707.00
+last 1778707.00 next 1781636.00
+last 1781636.00 next 1779183.00
+last 1779183.00 next 1776351.00
+last 1776351.00 next 1786336.00
+last 1786336.00 next 1776258.00
+last 1776258.00 next 1792157.00
+last 1792157.00 next 1771794.00
+last 1771794.00 next 1774753.00
+last 1774753.00 next 1779783.00
+last 1779783.00 next 1781817.00
+last 1781817.00 next 1774229.00
+last 1774229.00 next 1766580.00
+last 1766580.00 next 1773945.00
+last 1773945.00 next 1773629.00
+last 1773629.00 next 1778921.00
+last 1778921.00 next 1766532.00
+last 1766532.00 next 1786339.00
+last 1786339.00 next 1774193.00
+last 1774193.00 next 1774263.00
+last 1774263.00 next 1764399.00
+last 1764399.00 next 1771728.00
+last 1771728.00 next 1769129.00
+last 1769129.00 next 1771728.00
+last 1771728.00 next 1769129.00
+last 1769129.00 next 1771728.00
+last 1771728.00 next 1769129.00
+last 1769129.00 next 1771728.00
+last 1771728.00 next 1769129.00
+last 1769129.00 next 1771728.00
+last 1771728.00 next 1769129.00
+last 1769129.00 next 1771728.00
+last 1771728.00 next 1769129.00
+last 1769129.00 next 1771728.00
+last 1771728.00 next 1769129.00
+last 1769129.00 next 1771728.00
+last 1771728.00 next 1769129.00
+last 1769129.00 next 1771728.00
+last 1771728.00 next 1769129.00
+last 1769129.00 next 1771728.00
+last 1771728.00 next 1769129.00
+last 1769129.00 next 1771728.00
+last 1771728.00 next 1769129.00
+last 1769129.00 next 1771728.00
+last 1771728.00 next 1769129.00
+last 1769129.00 next 1771728.00
+last 1771728.00 next 1769129.00
+Number of iterations of slope scaling: 84
+
+*     0+    0                      1761352.0000  1381564.0000            21.56%
+      0     2  1381564.0000   114  1761352.0000  1381884.0000    60335   21.54%                        0             0
+Elapsed time = 503.25 sec. (8396.56 ticks, tree = 0.01 MB, solutions = 1)
+
+Root node processing (before b&c):
+  Real time             =    8.88 sec. (8394.10 ticks)
+Sequential b&c:
+  Real time             =  494.37 sec. (4.38 ticks)
+                          ------------
+Total (root+branch&cut) =  503.25 sec. (8398.48 ticks)
+
+CPX Callback NDP: 20.1.0.0
+
+CPX Return Code: 0
+CPX Callback Results: pb 1761352.000000 db 1479635.000000 node 1
+Problem Size: nrow 5855 ncol 58140
+
+Time Stat - Total: 494.36 	 Method1: 0.00 	 Method2: 494.36
+Num Exec - Method1: 85 	 Method2: 0
+Num Succ - Method1: 11 	 Method2: 0
+
+@03 END TIME: 2024-08-13 20:47:31
+@04 TIMELIMIT: 500 s [ h]
+@05 MEMLIMIT: 32768 MB [ GB]
+@06 GAPLIMIT: 0.01 [ %]
+
+Solution Check
+Read MPS: 1
+MIP has 58140 vars and 5855 constraints
+Read SOL: 1
+
+Integrality tolerance:   1/10000
+Linear tolerance:        1/10000
+Objective tolerance:     1/10000
+
+Check SOL: Integrality 1 Constraints 1 Objective 1
+Maximum violations: Integrality 0.000000 Constraints 0.000000 Objective 0.000000
+
+remove solution file: results/alone/500/bidirected/1/solutions/bidirected.ndp_50_3_2_0_0.0.cplex_callback_ndp.1threads.500s.sol
+
+= over =

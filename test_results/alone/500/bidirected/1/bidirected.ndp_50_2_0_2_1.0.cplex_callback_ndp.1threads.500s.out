@@ -1,0 +1,245 @@
+Linux c2u10n03 3.10.0-957.el7.x86_64 #1 SMP Thu Oct 4 20:48:51 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux
+CPU	: Intel(R) Xeon(R) Gold 6140 CPU @ 2.30GHz
+@01 INSTANCE: instances/ndp/bidirected/ndp_50_2_0_2_1.mps.gz, SEED: 0
+@02 START TIME: 2024-08-13 20:30:42
+
+TIME: 500
+MEM: 32768
+SEED: 0
+MINGAP: 0.010000
+HEUR MODE: 21
+CPX MODE: 0
+SOL: results/alone/500/bidirected/1/solutions/bidirected.ndp_50_2_0_2_1.0.cplex_callback_ndp.1threads.500s.sol
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+CPXPARAM_Preprocessing_Presolve                  0
+CPXPARAM_Preprocessing_Linear                    0
+CPXPARAM_Threads                                 1
+CPXPARAM_RandomSeed                              0
+CPXPARAM_MIP_Strategy_CallbackReducedLP          0
+CPXPARAM_MIP_Strategy_Search                     1
+CPXPARAM_MIP_Limits_Nodes                        1
+CPXPARAM_MIP_Strategy_HeuristicFreq              -1
+CPXPARAM_MIP_Limits_CutPasses                    -1
+CPXPARAM_Simplex_Limits_UpperObj                 3669129
+CPXPARAM_TimeLimit                               500
+CPXPARAM_MIP_Tolerances_MIPGap                   0.01
+CPXPARAM_MIP_Limits_TreeMemory                   32768
+Legacy callback                                  BH
+MIP emphasis: balance optimality and feasibility.
+MIP search method: traditional branch-and-cut.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 6.45 sec. (5830.35 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap         Variable B NodeID Parent  Depth
+
+      0     0  3470088.0769   124                3470088.0769    51729         
+Detecting symmetries...
+=  C  = - Old  - INF -   New 5500665.00
+last 100000000000000000000.00 next 5500665.00
+=  C  = - Old 5500665.00 New 5090503.00
+last 5500665.00 next 5090503.00
+last 5090503.00 next 5297893.00
+last 5297893.00 next 5271033.00
+last 5271033.00 next 5179499.00
+=  C  = - Old 5090503.00 New 4934727.00
+last 5179499.00 next 4934727.00
+=  C  = - Old 4934727.00 New 4889055.00
+last 4934727.00 next 4889055.00
+last 4889055.00 next 5140730.00
+last 5140730.00 next 4951351.00
+=  C  = - Old 4889055.00 New 4804971.55
+last 4951351.00 next 4804971.55
+=  C  = - Old 4804971.55 New 4719414.00
+last 4804971.55 next 4719414.00
+last 4719414.00 next 4744491.00
+=  C  = - Old 4719414.00 New 4628474.00
+last 4744491.00 next 4628474.00
+last 4628474.00 next 4691432.00
+last 4691432.00 next 4630405.00
+last 4630405.00 next 4667323.00
+=  C  = - Old 4628474.00 New 4617908.47
+last 4667323.00 next 4617908.47
+=  C  = - Old 4617908.47 New 4579852.47
+last 4617908.47 next 4579852.47
+last 4579852.47 next 4605918.47
+last 4605918.47 next 4628474.00
+last 4628474.00 next 4619929.00
+last 4619929.00 next 4606907.00
+last 4606907.00 next 4658060.00
+last 4658060.00 next 4631843.00
+last 4631843.00 next 4642403.00
+last 4642403.00 next 4696345.00
+last 4696345.00 next 4644944.31
+last 4644944.31 next 4657645.00
+last 4657645.00 next 4633544.00
+last 4633544.00 next 4647339.00
+last 4647339.00 next 4644685.00
+last 4644685.00 next 4633940.00
+last 4633940.00 next 4659729.00
+last 4659729.00 next 4644711.00
+last 4644711.00 next 4633948.00
+last 4633948.00 next 4659729.00
+last 4659729.00 next 4644711.00
+last 4644711.00 next 4633948.00
+last 4633948.00 next 4659729.00
+last 4659729.00 next 4644711.00
+last 4644711.00 next 4633948.00
+last 4633948.00 next 4659729.00
+last 4659729.00 next 4644711.00
+last 4644711.00 next 4633948.00
+last 4633948.00 next 4659729.00
+last 4659729.00 next 4644711.00
+last 4644711.00 next 4633948.00
+last 4633948.00 next 4659729.00
+last 4659729.00 next 4644711.00
+last 4644711.00 next 4633948.00
+last 4633948.00 next 4659729.00
+last 4659729.00 next 4644711.00
+last 4644711.00 next 4633948.00
+last 4633948.00 next 4659729.00
+last 4659729.00 next 4644711.00
+last 4644711.00 next 4633948.00
+last 4633948.00 next 4659729.00
+last 4659729.00 next 4644711.00
+last 4644711.00 next 4633948.00
+last 4633948.00 next 4659729.00
+last 4659729.00 next 4644711.00
+last 4644711.00 next 4633948.00
+last 4633948.00 next 4659729.00
+last 4659729.00 next 4644711.00
+last 4644711.00 next 4633948.00
+last 4633948.00 next 4659729.00
+last 4659729.00 next 4644711.00
+last 4644711.00 next 4633948.00
+last 4633948.00 next 4659729.00
+last 4659729.00 next 4644711.00
+last 4644711.00 next 4633948.00
+last 4633948.00 next 4659729.00
+last 4659729.00 next 4644711.00
+last 4644711.00 next 4633948.00
+last 4633948.00 next 4659729.00
+last 4659729.00 next 4644711.00
+last 4644711.00 next 4633948.00
+last 4633948.00 next 4659729.00
+last 4659729.00 next 4644711.00
+last 4644711.00 next 4633948.00
+last 4633948.00 next 4659729.00
+last 4659729.00 next 4644711.00
+last 4644711.00 next 4633948.00
+last 4633948.00 next 4659729.00
+last 4659729.00 next 4644711.00
+last 4644711.00 next 4633948.00
+last 4633948.00 next 4659729.00
+last 4659729.00 next 4644711.00
+last 4644711.00 next 4633948.00
+last 4633948.00 next 4659729.00
+last 4659729.00 next 4644711.00
+last 4644711.00 next 4633948.00
+last 4633948.00 next 4659729.00
+last 4659729.00 next 4644711.00
+last 4644711.00 next 4633948.00
+last 4633948.00 next 4659729.00
+last 4659729.00 next 4644711.00
+last 4644711.00 next 4633948.00
+last 4633948.00 next 4659729.00
+last 4659729.00 next 4644711.00
+last 4644711.00 next 4633948.00
+last 4633948.00 next 4659729.00
+last 4659729.00 next 4644711.00
+last 4644711.00 next 4633948.00
+last 4633948.00 next 4659729.00
+last 4659729.00 next 4644711.00
+last 4644711.00 next 4633948.00
+last 4633948.00 next 4659729.00
+last 4659729.00 next 4644711.00
+last 4644711.00 next 4633948.00
+last 4633948.00 next 4659729.00
+last 4659729.00 next 4644711.00
+last 4644711.00 next 4633948.00
+last 4633948.00 next 4659729.00
+last 4659729.00 next 4644711.00
+last 4644711.00 next 4633948.00
+last 4633948.00 next 4659729.00
+last 4659729.00 next 4644711.00
+last 4644711.00 next 4633948.00
+last 4633948.00 next 4659729.00
+last 4659729.00 next 4644711.00
+last 4644711.00 next 4633948.00
+last 4633948.00 next 4659729.00
+last 4659729.00 next 4644711.00
+last 4644711.00 next 4633948.00
+last 4633948.00 next 4659729.00
+last 4659729.00 next 4644711.00
+last 4644711.00 next 4633948.00
+last 4633948.00 next 4659729.00
+last 4659729.00 next 4644711.00
+last 4644711.00 next 4633948.00
+last 4633948.00 next 4659729.00
+last 4659729.00 next 4644711.00
+last 4644711.00 next 4633948.00
+last 4633948.00 next 4659729.00
+last 4659729.00 next 4644711.00
+last 4644711.00 next 4633948.00
+last 4633948.00 next 4659729.00
+last 4659729.00 next 4644711.00
+last 4644711.00 next 4633948.00
+last 4633948.00 next 4659729.00
+last 4659729.00 next 4644711.00
+last 4644711.00 next 4633948.00
+last 4633948.00 next 4659729.00
+last 4659729.00 next 4644711.00
+last 4644711.00 next 4633948.00
+last 4633948.00 next 4659729.00
+last 4659729.00 next 4644711.00
+last 4644711.00 next 4633948.00
+last 4633948.00 next 4659729.00
+last 4659729.00 next 4644711.00
+last 4644711.00 next 4633948.00
+last 4633948.00 next 4659729.00
+last 4659729.00 next 4644711.00
+last 4644711.00 next 4633948.00
+last 4633948.00 next 4659729.00
+last 4659729.00 next 4644711.00
+last 4644711.00 next 4633948.00
+last 4633948.00 next 4659729.00
+last 4659729.00 next 4644711.00
+last 4644711.00 next 4633948.00
+last 4633948.00 next 4659729.00
+last 4659729.00 next 4644711.00
+last 4644711.00 next 4633948.00
+last 4633948.00 next 4659729.00
+last 4659729.00 next 4644711.00
+last 4644711.00 next 4633948.00
+Number of iterations of slope scaling: 166
+
+      0     2  3470088.0769   124                3470556.0769    51729                                 0             0
+Elapsed time = 502.33 sec. (6358.00 ticks, tree = 0.01 MB, solutions = 0)
+
+Root node processing (before b&c):
+  Real time             =    6.89 sec. (6355.72 ticks)
+Sequential b&c:
+  Real time             =  495.45 sec. (3.25 ticks)
+                          ------------
+Total (root+branch&cut) =  502.34 sec. (6358.97 ticks)
+CPLEX Error  1217: No solution exists.
+CPLEX Error  1217: No solution exists.
+
+CPX Callback NDP: 20.1.0.0
+
+CPX Return Code: 0
+CPX Callback Results: pb 3669129.000000 db 3669129.000000 node 1
+Problem Size: nrow 5804 ncol 54404
+
+Time Stat - Total: 495.44 	 Method1: 0.00 	 Method2: 495.44
+Num Exec - Method1: 167 	 Method2: 0
+Num Succ - Method1: 9 	 Method2: 0
+
+@03 END TIME: 2024-08-13 20:39:05
+@04 TIMELIMIT: 500 s [ h]
+@05 MEMLIMIT: 32768 MB [ GB]
+@06 GAPLIMIT: 0.01 [ %]
+solution file is empty
+remove solution file: results/alone/500/bidirected/1/solutions/bidirected.ndp_50_2_0_2_1.0.cplex_callback_ndp.1threads.500s.sol
+
+= over =

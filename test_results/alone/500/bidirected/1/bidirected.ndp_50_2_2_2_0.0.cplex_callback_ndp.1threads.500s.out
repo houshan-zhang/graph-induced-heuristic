@@ -1,0 +1,285 @@
+Linux a3u01n01 3.10.0-957.el7.x86_64 #1 SMP Thu Oct 4 20:48:51 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux
+CPU	: Intel(R) Xeon(R) Gold 6140 CPU @ 2.30GHz
+@01 INSTANCE: instances/ndp/bidirected/ndp_50_2_2_2_0.mps.gz, SEED: 0
+@02 START TIME: 2024-08-13 20:30:43
+
+TIME: 500
+MEM: 32768
+SEED: 0
+MINGAP: 0.010000
+HEUR MODE: 21
+CPX MODE: 0
+SOL: results/alone/500/bidirected/1/solutions/bidirected.ndp_50_2_2_2_0.0.cplex_callback_ndp.1threads.500s.sol
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+CPXPARAM_Preprocessing_Presolve                  0
+CPXPARAM_Preprocessing_Linear                    0
+CPXPARAM_Threads                                 1
+CPXPARAM_RandomSeed                              0
+CPXPARAM_MIP_Strategy_CallbackReducedLP          0
+CPXPARAM_MIP_Strategy_Search                     1
+CPXPARAM_MIP_Limits_Nodes                        1
+CPXPARAM_MIP_Strategy_HeuristicFreq              -1
+CPXPARAM_MIP_Limits_CutPasses                    -1
+CPXPARAM_Simplex_Limits_UpperObj                 2808284
+CPXPARAM_TimeLimit                               500
+CPXPARAM_MIP_Tolerances_MIPGap                   0.01
+CPXPARAM_MIP_Limits_TreeMemory                   32768
+Legacy callback                                  BH
+MIP emphasis: balance optimality and feasibility.
+MIP search method: traditional branch-and-cut.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 8.18 sec. (7774.44 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap         Variable B NodeID Parent  Depth
+
+      0     0  2542510.0000   134                2542510.0000    58840         
+Detecting symmetries...
+=  C  = - Old  - INF -   New 4592885.00
+last 100000000000000000000.00 next 4592885.00
+=  C  = - Old 4592885.00 New 4324938.00
+last 4592885.00 next 4324938.00
+=  C  = - Old 4324938.00 New 4274152.00
+last 4324938.00 next 4274152.00
+last 4274152.00 next 4418044.50
+=  C  = - Old 4274152.00 New 4089756.00
+last 4418044.50 next 4089756.00
+last 4089756.00 next 4114007.00
+=  C  = - Old 4089756.00 New 3884277.00
+last 4114007.00 next 3884277.00
+=  C  = - Old 3884277.00 New 3746191.00
+last 3884277.00 next 3746191.00
+=  C  = - Old 3746191.00 New 3592612.00
+last 3746191.00 next 3592612.00
+=  C  = - Old 3592612.00 New 3531617.00
+last 3592612.00 next 3531617.00
+=  C  = - Old 3531617.00 New 3495007.00
+last 3531617.00 next 3495007.00
+last 3495007.00 next 3523213.00
+last 3523213.00 next 3522345.00
+last 3522345.00 next 3519424.00
+=  C  = - Old 3495007.00 New 3470335.88
+last 3519424.00 next 3470335.88
+last 3470335.88 next 3547936.88
+last 3547936.88 next 3546327.88
+last 3546327.88 next 3521818.88
+last 3521818.88 next 3471964.88
+last 3471964.88 next 3496791.88
+last 3496791.88 next 3471997.88
+=  C  = - Old 3470335.88 New 3459203.88
+last 3471997.88 next 3459203.88
+last 3459203.88 next 3459237.88
+last 3459237.88 next 3459203.88
+last 3459203.88 next 3459237.88
+last 3459237.88 next 3459203.88
+last 3459203.88 next 3459237.88
+last 3459237.88 next 3459203.88
+last 3459203.88 next 3459237.88
+last 3459237.88 next 3459203.88
+last 3459203.88 next 3459237.88
+last 3459237.88 next 3459203.88
+last 3459203.88 next 3459237.88
+last 3459237.88 next 3459203.88
+last 3459203.88 next 3459237.88
+last 3459237.88 next 3459203.88
+last 3459203.88 next 3459237.88
+last 3459237.88 next 3459203.88
+last 3459203.88 next 3459237.88
+last 3459237.88 next 3459203.88
+last 3459203.88 next 3459237.88
+last 3459237.88 next 3459203.88
+last 3459203.88 next 3459237.88
+last 3459237.88 next 3459203.88
+last 3459203.88 next 3459237.88
+last 3459237.88 next 3459203.88
+last 3459203.88 next 3459237.88
+last 3459237.88 next 3459203.88
+last 3459203.88 next 3459237.88
+last 3459237.88 next 3459203.88
+last 3459203.88 next 3459237.88
+last 3459237.88 next 3459203.88
+last 3459203.88 next 3459237.88
+last 3459237.88 next 3459203.88
+last 3459203.88 next 3459237.88
+last 3459237.88 next 3459203.88
+last 3459203.88 next 3459237.88
+last 3459237.88 next 3459203.88
+last 3459203.88 next 3459237.88
+last 3459237.88 next 3459203.88
+last 3459203.88 next 3459237.88
+last 3459237.88 next 3459203.88
+last 3459203.88 next 3459237.88
+last 3459237.88 next 3459203.88
+last 3459203.88 next 3459237.88
+last 3459237.88 next 3459203.88
+last 3459203.88 next 3459237.88
+last 3459237.88 next 3459203.88
+last 3459203.88 next 3459237.88
+last 3459237.88 next 3459203.88
+last 3459203.88 next 3459237.88
+last 3459237.88 next 3459203.88
+last 3459203.88 next 3459237.88
+last 3459237.88 next 3459203.88
+last 3459203.88 next 3459237.88
+last 3459237.88 next 3459203.88
+last 3459203.88 next 3459237.88
+last 3459237.88 next 3459203.88
+last 3459203.88 next 3459237.88
+last 3459237.88 next 3459203.88
+last 3459203.88 next 3459237.88
+last 3459237.88 next 3459203.88
+last 3459203.88 next 3459237.88
+last 3459237.88 next 3459203.88
+last 3459203.88 next 3459237.88
+last 3459237.88 next 3459203.88
+last 3459203.88 next 3459237.88
+last 3459237.88 next 3459203.88
+last 3459203.88 next 3459237.88
+last 3459237.88 next 3459203.88
+last 3459203.88 next 3459237.88
+last 3459237.88 next 3459203.88
+last 3459203.88 next 3459237.88
+last 3459237.88 next 3459203.88
+last 3459203.88 next 3459237.88
+last 3459237.88 next 3459203.88
+last 3459203.88 next 3459237.88
+last 3459237.88 next 3459203.88
+last 3459203.88 next 3459237.88
+last 3459237.88 next 3459203.88
+last 3459203.88 next 3459237.88
+last 3459237.88 next 3459203.88
+last 3459203.88 next 3459237.88
+last 3459237.88 next 3459203.88
+last 3459203.88 next 3459237.88
+last 3459237.88 next 3459203.88
+last 3459203.88 next 3459237.88
+last 3459237.88 next 3459203.88
+last 3459203.88 next 3459237.88
+last 3459237.88 next 3459203.88
+last 3459203.88 next 3459237.88
+last 3459237.88 next 3459203.88
+last 3459203.88 next 3459237.88
+last 3459237.88 next 3459203.88
+last 3459203.88 next 3459237.88
+last 3459237.88 next 3459203.88
+last 3459203.88 next 3459237.88
+last 3459237.88 next 3459203.88
+last 3459203.88 next 3459237.88
+last 3459237.88 next 3459203.88
+last 3459203.88 next 3459237.88
+last 3459237.88 next 3459203.88
+last 3459203.88 next 3459237.88
+last 3459237.88 next 3459203.88
+last 3459203.88 next 3459237.88
+last 3459237.88 next 3459203.88
+last 3459203.88 next 3459237.88
+last 3459237.88 next 3459203.88
+last 3459203.88 next 3459237.88
+last 3459237.88 next 3459203.88
+last 3459203.88 next 3459237.88
+last 3459237.88 next 3459203.88
+last 3459203.88 next 3459237.88
+last 3459237.88 next 3459203.88
+last 3459203.88 next 3459237.88
+last 3459237.88 next 3459203.88
+last 3459203.88 next 3459237.88
+last 3459237.88 next 3459203.88
+last 3459203.88 next 3459237.88
+last 3459237.88 next 3459203.88
+last 3459203.88 next 3459237.88
+last 3459237.88 next 3459203.88
+last 3459203.88 next 3459237.88
+last 3459237.88 next 3459203.88
+last 3459203.88 next 3459237.88
+last 3459237.88 next 3459203.88
+last 3459203.88 next 3459237.88
+last 3459237.88 next 3459203.88
+last 3459203.88 next 3459237.88
+last 3459237.88 next 3459203.88
+last 3459203.88 next 3459237.88
+last 3459237.88 next 3459203.88
+last 3459203.88 next 3459237.88
+last 3459237.88 next 3459203.88
+last 3459203.88 next 3459237.88
+last 3459237.88 next 3459203.88
+last 3459203.88 next 3459237.88
+last 3459237.88 next 3459203.88
+last 3459203.88 next 3459237.88
+last 3459237.88 next 3459203.88
+last 3459203.88 next 3459237.88
+last 3459237.88 next 3459203.88
+last 3459203.88 next 3459237.88
+last 3459237.88 next 3459203.88
+last 3459203.88 next 3459237.88
+last 3459237.88 next 3459203.88
+last 3459203.88 next 3459237.88
+last 3459237.88 next 3459203.88
+last 3459203.88 next 3459237.88
+last 3459237.88 next 3459203.88
+last 3459203.88 next 3459237.88
+last 3459237.88 next 3459203.88
+last 3459203.88 next 3459237.88
+last 3459237.88 next 3459203.88
+last 3459203.88 next 3459237.88
+last 3459237.88 next 3459203.88
+last 3459203.88 next 3459237.88
+last 3459237.88 next 3459203.88
+last 3459203.88 next 3459237.88
+last 3459237.88 next 3459203.88
+last 3459203.88 next 3459237.88
+last 3459237.88 next 3459203.88
+last 3459203.88 next 3459237.88
+last 3459237.88 next 3459203.88
+last 3459203.88 next 3459237.88
+last 3459237.88 next 3459203.88
+last 3459203.88 next 3459237.88
+last 3459237.88 next 3459203.88
+last 3459203.88 next 3459237.88
+last 3459237.88 next 3459203.88
+last 3459203.88 next 3459237.88
+last 3459237.88 next 3459203.88
+last 3459203.88 next 3459237.88
+last 3459237.88 next 3459203.88
+last 3459203.88 next 3459237.88
+last 3459237.88 next 3459203.88
+last 3459203.88 next 3459237.88
+last 3459237.88 next 3459203.88
+last 3459203.88 next 3459237.88
+last 3459237.88 next 3459203.88
+last 3459203.88 next 3459237.88
+last 3459237.88 next 3459203.88
+last 3459203.88 next 3459237.88
+last 3459237.88 next 3459203.88
+last 3459203.88 next 3459237.88
+Number of iterations of slope scaling: 204
+
+      0     2  2542510.0000   134                2542587.0000    58840                                 0             0
+Elapsed time = 502.24 sec. (8417.17 ticks, tree = 0.01 MB, solutions = 0)
+
+Root node processing (before b&c):
+  Real time             =    8.72 sec. (8414.82 ticks)
+Sequential b&c:
+  Real time             =  493.52 sec. (3.36 ticks)
+                          ------------
+Total (root+branch&cut) =  502.24 sec. (8418.18 ticks)
+CPLEX Error  1217: No solution exists.
+CPLEX Error  1217: No solution exists.
+
+CPX Callback NDP: 20.1.0.0
+
+CPX Return Code: 0
+CPX Callback Results: pb 2808284.000000 db 2808284.000000 node 1
+Problem Size: nrow 5834 ncol 56434
+
+Time Stat - Total: 493.51 	 Method1: 0.00 	 Method2: 493.51
+Num Exec - Method1: 205 	 Method2: 0
+Num Succ - Method1: 11 	 Method2: 0
+
+@03 END TIME: 2024-08-13 20:39:06
+@04 TIMELIMIT: 500 s [ h]
+@05 MEMLIMIT: 32768 MB [ GB]
+@06 GAPLIMIT: 0.01 [ %]
+solution file is empty
+remove solution file: results/alone/500/bidirected/1/solutions/bidirected.ndp_50_2_2_2_0.0.cplex_callback_ndp.1threads.500s.sol
+
+= over =

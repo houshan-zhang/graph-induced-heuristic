@@ -1,0 +1,216 @@
+Linux c6u26n04 3.10.0-957.el7.x86_64 #1 SMP Thu Oct 4 20:48:51 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux
+CPU	: Intel(R) Xeon(R) Gold 6140 CPU @ 2.30GHz
+@01 INSTANCE: instances/ndp/bidirected/ndp_50_3_1_0_1.mps.gz, SEED: 0
+@02 START TIME: 2024-08-13 20:39:05
+
+TIME: 500
+MEM: 32768
+SEED: 0
+MINGAP: 0.010000
+HEUR MODE: 21
+CPX MODE: 0
+SOL: results/alone/500/bidirected/1/solutions/bidirected.ndp_50_3_1_0_1.0.cplex_callback_ndp.1threads.500s.sol
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+CPXPARAM_Preprocessing_Presolve                  0
+CPXPARAM_Preprocessing_Linear                    0
+CPXPARAM_Threads                                 1
+CPXPARAM_RandomSeed                              0
+CPXPARAM_MIP_Strategy_CallbackReducedLP          0
+CPXPARAM_MIP_Strategy_Search                     1
+CPXPARAM_MIP_Limits_Nodes                        1
+CPXPARAM_MIP_Strategy_HeuristicFreq              -1
+CPXPARAM_MIP_Limits_CutPasses                    -1
+CPXPARAM_Simplex_Limits_UpperObj                 1668866
+CPXPARAM_TimeLimit                               500
+CPXPARAM_MIP_Tolerances_MIPGap                   0.01
+CPXPARAM_MIP_Limits_TreeMemory                   32768
+Legacy callback                                  BH
+MIP emphasis: balance optimality and feasibility.
+MIP search method: traditional branch-and-cut.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 5.42 sec. (4792.04 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap         Variable B NodeID Parent  Depth
+
+      0     0  1607083.9412   106                1607083.9412    46321         
+Detecting symmetries...
+=  C  = - Old  - INF -   New 2246731.00
+last 100000000000000000000.00 next 2246731.00
+=  C  = - Old 2246731.00 New 2142685.00
+last 2246731.00 next 2142685.00
+last 2142685.00 next 2239155.00
+=  C  = - Old 2142685.00 New 2140439.00
+last 2239155.00 next 2140439.00
+=  C  = - Old 2140439.00 New 2099840.00
+last 2140439.00 next 2099840.00
+=  C  = - Old 2099840.00 New 2078465.00
+last 2099840.00 next 2078465.00
+last 2078465.00 next 2141190.00
+last 2141190.00 next 2157636.00
+=  C  = - Old 2078465.00 New 2073983.00
+last 2157636.00 next 2073983.00
+last 2073983.00 next 2167685.00
+last 2167685.00 next 2117135.00
+last 2117135.00 next 2121218.00
+=  C  = - Old 2073983.00 New 2035874.00
+last 2121218.00 next 2035874.00
+=  C  = - Old 2035874.00 New 2025676.00
+last 2035874.00 next 2025676.00
+last 2025676.00 next 2057176.00
+last 2057176.00 next 2065637.00
+last 2065637.00 next 2060162.00
+last 2060162.00 next 2053038.29
+last 2053038.29 next 2072801.00
+last 2072801.00 next 2044253.00
+last 2044253.00 next 2037332.00
+last 2037332.00 next 2027236.00
+last 2027236.00 next 2026774.00
+=  C  = - Old 2025676.00 New 2019102.00
+last 2026774.00 next 2019102.00
+last 2019102.00 next 2020689.00
+last 2020689.00 next 2030822.00
+=  C  = - Old 2019102.00 New 2004084.00
+last 2030822.00 next 2004084.00
+last 2004084.00 next 2026600.00
+last 2026600.00 next 2016600.00
+last 2016600.00 next 2019020.00
+last 2019020.00 next 2016408.00
+last 2016408.00 next 2011584.00
+last 2011584.00 next 2009084.00
+last 2009084.00 next 2011584.00
+last 2011584.00 next 2009084.00
+last 2009084.00 next 2011584.00
+last 2011584.00 next 2009084.00
+last 2009084.00 next 2011584.00
+last 2011584.00 next 2009084.00
+last 2009084.00 next 2011584.00
+last 2011584.00 next 2009084.00
+last 2009084.00 next 2011584.00
+last 2011584.00 next 2009084.00
+last 2009084.00 next 2011584.00
+last 2011584.00 next 2009084.00
+last 2009084.00 next 2011584.00
+last 2011584.00 next 2009084.00
+last 2009084.00 next 2011584.00
+last 2011584.00 next 2009084.00
+last 2009084.00 next 2011584.00
+last 2011584.00 next 2009084.00
+last 2009084.00 next 2011584.00
+last 2011584.00 next 2009084.00
+last 2009084.00 next 2011584.00
+last 2011584.00 next 2009084.00
+last 2009084.00 next 2011584.00
+last 2011584.00 next 2009084.00
+last 2009084.00 next 2011584.00
+last 2011584.00 next 2009084.00
+last 2009084.00 next 2011584.00
+last 2011584.00 next 2009084.00
+last 2009084.00 next 2011584.00
+last 2011584.00 next 2009084.00
+last 2009084.00 next 2011584.00
+last 2011584.00 next 2009084.00
+last 2009084.00 next 2011584.00
+last 2011584.00 next 2009084.00
+last 2009084.00 next 2011584.00
+last 2011584.00 next 2009084.00
+last 2009084.00 next 2011584.00
+last 2011584.00 next 2009084.00
+last 2009084.00 next 2011584.00
+last 2011584.00 next 2009084.00
+last 2009084.00 next 2011584.00
+last 2011584.00 next 2009084.00
+last 2009084.00 next 2011584.00
+last 2011584.00 next 2009084.00
+last 2009084.00 next 2011584.00
+last 2011584.00 next 2009084.00
+last 2009084.00 next 2011584.00
+last 2011584.00 next 2009084.00
+last 2009084.00 next 2011584.00
+last 2011584.00 next 2009084.00
+last 2009084.00 next 2011584.00
+last 2011584.00 next 2009084.00
+last 2009084.00 next 2011584.00
+last 2011584.00 next 2009084.00
+last 2009084.00 next 2011584.00
+last 2011584.00 next 2009084.00
+last 2009084.00 next 2011584.00
+last 2011584.00 next 2009084.00
+last 2009084.00 next 2011584.00
+last 2011584.00 next 2009084.00
+last 2009084.00 next 2011584.00
+last 2011584.00 next 2009084.00
+last 2009084.00 next 2011584.00
+last 2011584.00 next 2009084.00
+last 2009084.00 next 2011584.00
+last 2011584.00 next 2009084.00
+last 2009084.00 next 2011584.00
+last 2011584.00 next 2009084.00
+last 2009084.00 next 2011584.00
+last 2011584.00 next 2009084.00
+last 2009084.00 next 2011584.00
+last 2011584.00 next 2009084.00
+last 2009084.00 next 2011584.00
+last 2011584.00 next 2009084.00
+last 2009084.00 next 2011584.00
+last 2011584.00 next 2009084.00
+last 2009084.00 next 2011584.00
+last 2011584.00 next 2009084.00
+last 2009084.00 next 2011584.00
+last 2011584.00 next 2009084.00
+last 2009084.00 next 2011584.00
+last 2011584.00 next 2009084.00
+last 2009084.00 next 2011584.00
+last 2011584.00 next 2009084.00
+last 2009084.00 next 2011584.00
+last 2011584.00 next 2009084.00
+last 2009084.00 next 2011584.00
+last 2011584.00 next 2009084.00
+last 2009084.00 next 2011584.00
+last 2011584.00 next 2009084.00
+last 2009084.00 next 2011584.00
+last 2011584.00 next 2009084.00
+last 2009084.00 next 2011584.00
+Number of iterations of slope scaling: 125
+
+*     0+    0                      2004084.0000  1607083.9412            19.81%
+      0     2  1607083.9412   106  2004084.0000  1607083.9412    46321   19.81%                        0             0
+Elapsed time = 502.05 sec. (5487.85 ticks, tree = 0.01 MB, solutions = 1)
+
+Root node processing (before b&c):
+  Real time             =    6.00 sec. (5485.42 ticks)
+Sequential b&c:
+  Real time             =  496.06 sec. (4.29 ticks)
+                          ------------
+Total (root+branch&cut) =  502.05 sec. (5489.71 ticks)
+
+CPX Callback NDP: 20.1.0.0
+
+CPX Return Code: 0
+CPX Callback Results: pb 2004084.000000 db 1668866.000000 node 1
+Problem Size: nrow 5825 ncol 56100
+
+Time Stat - Total: 496.05 	 Method1: 0.00 	 Method2: 496.05
+Num Exec - Method1: 126 	 Method2: 0
+Num Succ - Method1: 10 	 Method2: 0
+
+@03 END TIME: 2024-08-13 20:47:29
+@04 TIMELIMIT: 500 s [ h]
+@05 MEMLIMIT: 32768 MB [ GB]
+@06 GAPLIMIT: 0.01 [ %]
+
+Solution Check
+Read MPS: 1
+MIP has 56100 vars and 5825 constraints
+Read SOL: 1
+
+Integrality tolerance:   1/10000
+Linear tolerance:        1/10000
+Objective tolerance:     1/10000
+
+Check SOL: Integrality 1 Constraints 1 Objective 1
+Maximum violations: Integrality 0.000000 Constraints 0.000000 Objective 0.000000
+
+remove solution file: results/alone/500/bidirected/1/solutions/bidirected.ndp_50_3_1_0_1.0.cplex_callback_ndp.1threads.500s.sol
+
+= over =
